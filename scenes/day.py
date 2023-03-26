@@ -6,9 +6,9 @@ from setup import colours, fonts, frames
 from rgbmatrix import graphics
 
 # Setup
-DAY_COLOUR = colours.PINK_DARK
+DAY_COLOUR = colours.BLUE_LIGHT
 DAY_FONT = fonts.small
-DAY_POSITION = (2, 23)
+DAY_POSITION = (2, 48)
 
 
 class DayScene(object):

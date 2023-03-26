@@ -28,7 +28,6 @@ class FlightDetailsScene(object):
 
     @Animator.KeyFrame.add(0)
     def flight_details(self):
-
         # Guard against no data
         if len(self._data) == 0:
             return

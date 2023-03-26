@@ -6,9 +6,9 @@ from setup import colours, fonts, frames
 from rgbmatrix import graphics
 
 # Setup
-DATE_COLOUR = colours.PINK_DARKER
-DATE_FONT = fonts.small
-DATE_POSITION = (1, 31)
+DATE_COLOUR = colours.PINK
+DATE_FONT = fonts.regular
+DATE_POSITION = (2, 57)
 
 
 class DateScene(object):

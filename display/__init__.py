@@ -50,8 +50,10 @@ class Display(
     def __init__(self):
         # Setup Display
         options = RGBMatrixOptions()
-        options.hardware_mapping = "adafruit-hat-pwm" if HAT_PWM_ENABLED else "adafruit-hat"
-        options.rows = 32
+        options.hardware_mapping = (
+            "adafruit-hat-pwm" if HAT_PWM_ENABLED else "adafruit-hat"
+        )
+        options.rows = 64
         options.cols = 64
         options.chain_length = 1
         options.parallel = 1
